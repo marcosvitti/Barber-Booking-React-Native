@@ -1,0 +1,27 @@
+{
+  "name": "barber",
+  "version": "1.0.0",
+  "description": "Backend App Barber",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "migrate": "yarn sequelize db:migrate",
+    "undo-migrate": "yarn sequelize db:migrate:undo"
+  },
+  "author": "MarcosVitti",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "geopoint": "^1.0.1",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5",
+    "sequelize-cli": "^6.2.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "nodemon": "^2.0.12"
+  }
+}
