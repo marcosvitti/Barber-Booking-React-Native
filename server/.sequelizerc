@@ -1,0 +1,14 @@
+/*import path from 'path';
+
+export default {
+    config: path.resolve(__dirname, 'src', 'config', 'database.js')
+}
+*/
+require("babel-register");
+
+const path = require('path');
+
+module.exports = {
+    'config':  path.resolve(__dirname, 'src', 'config', 'database-cli-sequelize.js'),
+    'migrations-path': path.resolve(__dirname, 'src', 'database', 'migrations')
+}
