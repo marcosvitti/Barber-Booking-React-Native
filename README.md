@@ -5,6 +5,8 @@ Simple barber booking app, built with react-native on the front-end and node on 
 - `git clone https://github.com/marcosvitti/Barber-Booking-React-Native.git`;
 - `cd Barber-Booking-React-Native/app`;
 - `yarn install` or `npm install`;
+- `npm install -g expo-cli`
+- `expo install react-native-safe-area-context`
 - `cd ../..`;
 - `cd Barber-Booking-React-Native/server`;
 - `yarn install` or `npm install`;
